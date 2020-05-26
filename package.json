@@ -1,0 +1,25 @@
+{
+  "name": "oslo-voc-ap-overview",
+  "version": "1.0.0",
+  "description": "Small script to generate an overview of all OSLO vocabularies and application profiles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddvlanck/OSLO-Voc-Ap-Overview.git"
+  },
+  "author": "Dwight Van Lancker - Information Flanders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddvlanck/OSLO-Voc-Ap-Overview/issues"
+  },
+  "homepage": "https://github.com/ddvlanck/OSLO-Voc-Ap-Overview#readme",
+  "dependencies": {
+    "@types/node": "^14.0.5",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.0",
+    "nunjucks": "^3.2.1"
+  }
+}
